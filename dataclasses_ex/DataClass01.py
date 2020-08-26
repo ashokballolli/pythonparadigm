@@ -13,6 +13,9 @@ d11 = DataClass01ProbSt('Samrat', 30, 3243)
 d12 = DataClass01ProbSt('Samrat', 30, 3243)
 
 print(d11) # <__main__.DataClass01ProbSt object at 0x1021e6e10>
+print(d11.__dict__)
+print(d11.__dict__['name'])
+
 print(d11 == d12) # False
 
 print(d11.name)
